@@ -7,7 +7,7 @@
 
 .container {
   margin-top: 100px;
-  background: linear-gradient(left, #e0729c, #DF4380);
+  background: linear-gradient(to right, #e0729c, #DF4380);
   padding: 20px;
   color: white;
 }

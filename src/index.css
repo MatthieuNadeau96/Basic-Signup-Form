@@ -2,12 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: linear-gradient(left bottom, #313FA0, #6474D4);
+  background: linear-gradient(to right top, #313FA0, #6474D4);
 }
 
 @media (max-width: 600px) {
   body {
-    background-image: linear-gradient(to right, #e0729c, #DF4380);
+    background: linear-gradient(to right, #e0729c, #DF4380);
   }
 }
 html {
