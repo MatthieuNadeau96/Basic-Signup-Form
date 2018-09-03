@@ -5,10 +5,10 @@ import Button from '../Button';
 const Form = (props) => (
   <div className="signInContainer">
     <form>
-      <input className="email" placeholder="Email" name="email"/>
-      <input className="password" placeholder="password" name="password"/>
+      <input className="email" placeholder="Email" name="email" required/>
+      <input className="password" placeholder="Password" type="password" required/>
     </form>
-    <Button className="signInBTn" btnName="Sign In"/>
+    <Button class="btn signInBtn" btnName="Sign In" linkTo="/"/>
     <div className="linkToSignUp">Need an account? <a href='/'>Sign Up</a></div>
   </div>
 );

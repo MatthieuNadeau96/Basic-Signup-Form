@@ -10,7 +10,6 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="title">Dribble</div>
-          <SignIn/>
           <SignUp/>
         </div>
       </div>

@@ -1,3 +1,82 @@
 .App {
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.container {
+  margin-top: 100px;
+  background: #ED6095;
+  padding: 20px;
+  color: white;
+}
+
+
+.signInContainer {
+  background-color: inherit;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 10px;
+  padding: 10px 10px 10px 0;
+  color: white;
+}
+input:focus {
+  outline: 0;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0 30px #ED6095 inset;
+}
+::placeholder {
+  color: inherit;
+  text-align: left;
+}
+
+.btn {
+  background-color: white;
+  color: #ED6095;
+  margin: 15px 0;
+  padding: 10px 15px;
+  width: 150px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:focus {
+  outline: 0;
+}
+
+
+
+.signUpContainer {
+  background-color: inherit;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .App {
+    width: 100%;
+  }
+
+  .container {
+    margin: 0;
+    padding-top: 100px;
+  }
 }

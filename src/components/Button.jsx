@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (props) => (
   <div className="buttonContainer">
-    <a>{props.btnName}</a>
+    <button className={props.class} href={props.linkTo}>{props.btnName}</button>
   </div>
 );
 
