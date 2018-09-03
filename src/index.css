@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: linear-gradient(left bottom, #313FA0, #6474D4);
-  height: 100%;
 }
 
 @media (max-width: 600px) {
