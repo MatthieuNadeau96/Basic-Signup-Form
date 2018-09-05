@@ -7,9 +7,9 @@ const Form = (props) => (
     <form>
       <input className="email" placeholder="Email" name="email" required/>
       <input className="password" placeholder="Password" type="password" required/>
+      <Button class="btn signInBtn" btnName="Sign In" linkTo="/"/>
+      <div className="linkToSignUp">Need an account? <a href='/sign-up'>Sign Up</a></div>
     </form>
-    <Button class="btn signInBtn" btnName="Sign In" linkTo="/"/>
-    <div className="linkToSignUp">Need an account? <a href='/sign-up'>Sign Up</a></div>
   </div>
 );
 
