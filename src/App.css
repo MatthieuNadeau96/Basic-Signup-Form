@@ -34,6 +34,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 80%;
+  height: 280px;
 }
 
 input {
@@ -60,7 +61,8 @@ input:-webkit-autofill {
 }
 
 .buttonContainer {
-  margin-top: 50%;
+  /* margin-top: 50%; */
+
 }
 
 .btn {

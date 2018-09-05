@@ -10,9 +10,9 @@ const Form = (props) => (
     <form>
       <input className="email" placeholder="Email" name="email" required/>
       <input className="password" placeholder="Password" type="password" required/>
-      <Button class="btn signInBtn" btnName="Sign In" linkTo="/"/>
-      <div className="linkToSignUp">Need an account? <Link to="/sign-up">Sign Up</Link></div>
     </form>
+    <Button class="btn signInBtn" btnName="Sign In" linkTo="/"/>
+    <div className="linkToSignUp">Need an account? <Link to="/sign-up">Sign Up</Link></div>
   </div>
 );
 
