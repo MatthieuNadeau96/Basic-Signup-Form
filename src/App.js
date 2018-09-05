@@ -4,7 +4,7 @@ import './App.css';
 import SignIn from './components/Forms/SignIn';
 import SignUp from './components/Forms/SignUp';
 
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <Route exact path='/' component={SignIn} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route exact path='/sign-up' component={SignUp} />
         </div>
       </div>
     );
