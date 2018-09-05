@@ -8,9 +8,9 @@ const SignUp = (props) => (
       <input className="userName" placeholder="Username" type="text" required/>
       <input className="email" placeholder="Email" name="email" required/>
       <input className="password" placeholder="Password" type="password" required/>
-      <Button class="btn signInBTn" btnName="Sign In"/>
+      <Button class="btn signUpBTn" btnName="Sign Up"/>
+      <div className="linkToSignUp">Already have an account? <a href='/'>Sign In</a></div>
     </form>
-    <div className="linkToSignUp">Need an account? <a href='/'>Sign Up</a></div>
   </div>
 );
 
