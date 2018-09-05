@@ -69,6 +69,7 @@ input:-webkit-autofill {
   border-radius: 25px;
   cursor: pointer;
   text-transform: uppercase;
+  box-shadow: 0 8px 10px -5px rgba(0,0,0,0.1);
   -webkit-tap-highlight-color: transparent;
 }
 .btn:focus {
