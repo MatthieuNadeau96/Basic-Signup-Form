@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Title from '../Title';
 import Button from '../Button';
 
 const Form = (props) => (
   <div className="signInContainer">
+    <Title title="Sign In"/>
     <form>
       <input className="email" placeholder="Email" name="email" required/>
       <input className="password" placeholder="Password" type="password" required/>

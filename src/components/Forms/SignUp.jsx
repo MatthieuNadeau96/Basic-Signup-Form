@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Title from '../Title';
 import Button from '../Button';
 
 const SignUp = (props) => (
   <div className="signUpContainer">
+    <Title title="Sign Up"/>
     <form>
       <input className="userName" placeholder="Username" type="text" required/>
       <input className="email" placeholder="Email" name="email" required/>
