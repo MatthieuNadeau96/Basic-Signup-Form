@@ -4,10 +4,12 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .title {
   margin-top: 15%;
+  font-weight: bold;
 }
 
 
@@ -35,6 +37,7 @@ form {
 }
 
 input {
+  font-family: inherit;
   background-color: inherit;
   border: none;
   border-bottom: 1px solid white;
@@ -50,9 +53,10 @@ input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #ED6095 inset;
 }
 ::placeholder {
+  font-family: inherit;
   color: inherit;
   text-align: left;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .buttonContainer {
@@ -60,8 +64,10 @@ input:-webkit-autofill {
 }
 
 .btn {
+  font-family: inherit;
   background-color: white;
   font-weight: bold;
+  font-size: .9em;
   color: #ED6095;
   margin: 15px 0;
   padding: 10px 15px;
@@ -86,7 +92,7 @@ input:-webkit-autofill {
 
 .linkToSignUp {
   margin: 10px auto 20% auto;
-  font-weight: 200;
+  font-weight: 300;
 }
 a {
   color: inherit;
