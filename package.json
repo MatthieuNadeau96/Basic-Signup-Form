@@ -4,7 +4,7 @@
   "homepage": "https://matthieunadeau96.github.io/Basic-Signup-Form/",
   "private": true,
   "dependencies": {
-    "npm": "^6.10.1",
+    "npm": "^6.14.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
